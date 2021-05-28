@@ -31,8 +31,8 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "yourname@domain.com";
-$Subject = "New quote request from Aria landing page";
+$EmailTo = "benkhalil.mouez@gmail.com";
+$Subject = "New Suggestion request from the landing page";
 
 // prepare email body text
 $Body = "";
@@ -45,8 +45,8 @@ $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
-$Body .= "Package: ";
-$Body .= $select;
+$Body .= "Message: ";
+$Body .= $textarea;
 $Body .= "\n";
 $Body .= "Terms: ";
 $Body .= $terms;
